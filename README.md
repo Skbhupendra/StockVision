@@ -24,28 +24,32 @@ The dashboard is organized into three main navigation pages:
 ## Repository Structure
 
 ```text
-Stock_AP/
-├── app.py
-├── Home.py
-├── README.md
-├── requirements.txt
-├── pic.jpg
+StockVision/
 ├── pages/
+│   ├── utils/
+│   │   ├── .gitkeep
+│   │   ├── __init__.py
+│   │   ├── model_training.py
+│   │   └── plotly_fig.py
 │   ├── .gitkeep
-│   ├── __init__.py
 │   ├── Stock_Analysis.py
 │   ├── Stock_Prediction.py
-│   └── utils/
-│       ├── .gitkeep
-│       ├── __init__.py
-│       ├── model_training.py
-│       └── plotly_fig.py
-├── screenshots/           
-│   ├── .gitkeep   
-|   ├── home.png
-│   ├── stock-analysis.png
-│   └── stock-prediction.png
-└── .gitignore
+│   └── __init__.py
+├── screenshots/
+│   ├── .gitkeep
+│   ├── forecast-preview.png
+│   ├── home-2.png
+│   ├── home_1.png
+│   ├── simple-moving-average.png
+│   ├── stock-analysis-1.png
+│   ├── stock-analysis-2.png
+│   └── stock-prediction-1.png
+├── Home.py
+├── README.md
+├── app.py
+├── pic.jpg
+└── requirements.txt
+```
 
 ## Project Modules
 
