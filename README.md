@@ -1,4 +1,4 @@
-# Stock_AP
+# StockVision
 
 A Python-based stock dashboard built with Streamlit for market analysis and future price prediction.
 
