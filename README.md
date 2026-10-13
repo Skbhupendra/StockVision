@@ -248,7 +248,7 @@ git push -u origin main
 
 ## License
 
-This project is intended for educational and portfolio-analysis use. Add your preferred license if you plan to publish it publicly.
+This project is intended for educational and portfolio-analysis use.
 
 ## Contributor Notes
 
