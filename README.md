@@ -25,21 +25,27 @@ The dashboard is organized into three main navigation pages:
 
 ```text
 Stock_AP/
-├── app.py                  # Main entry point and page navigation
-├── Home.py                 # Home landing page with company codes and feature overview
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-├── pic.jpg                 # Landing page image
+├── app.py
+├── Home.py
+├── README.md
+├── requirements.txt
+├── pic.jpg
 ├── pages/
-│   ├── __init__.py         # Package marker for pages
-│   ├── Stock_Analysis.py   # Stock analysis dashboard
-│   ├── Stock_Prediction.py  # Prediction and forecasting dashboard
+│   ├── .gitkeep
+│   ├── __init__.py
+│   ├── Stock_Analysis.py
+│   ├── Stock_Prediction.py
 │   └── utils/
+│       ├── .gitkeep
 │       ├── __init__.py
-│       ├── model_training.py   # Data loading, scaling, forecasting logic
-│       └── plotly_fig.py      # Chart generation utilities
-└── .gitignore             # Git ignore file (if present in project)
-```
+│       ├── model_training.py
+│       └── plotly_fig.py
+├── screenshots/           
+│   ├── .gitkeep   
+|   ├── home.png
+│   ├── stock-analysis.png
+│   └── stock-prediction.png
+└── .gitignore
 
 ## Project Modules
 
